@@ -1,0 +1,9 @@
+apiVersion: v2
+name: acme-feedback
+description: Krateo controller for Typeform Create API (forms), served in acmefeedback.example.io.
+type: application
+version: 0.1.0
+annotations:
+  controller.builders.krateo.io/api-group: acmefeedback.example.io
+  controller.builders.krateo.io/base-url: https://api.typeform.com
+  controller.builders.krateo.io/source-spec-version: '1.0'
